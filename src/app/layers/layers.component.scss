@@ -1,0 +1,22 @@
+.layers-container {
+    position: absolute;
+    z-index: 1000;
+    right: 10px;
+    background: white;
+    text-align: end;
+    top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.layers-container>div {
+    border-bottom: 1px solid #e9e2e1;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.layers-container>div:hover {
+    background: #d7d7d7;
+}

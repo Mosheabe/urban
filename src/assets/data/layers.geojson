@@ -1,0 +1,37 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.0818155,
+                    31.4117257
+                ]
+            },
+            "properties": {
+                "state": "Israel",
+                "name": "Jerusalem",
+                "dispaly": "בתי ספר",
+                "layerName": "school"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.0818155,
+                    31.4117256
+                ]
+            },
+            "properties": {
+                "state": "Israel",
+                "name": "Jerusalem",
+                "dispaly": "תחנות אוטובוס",
+                "layerName": "bus_station"
+            }
+        }
+    ]
+}

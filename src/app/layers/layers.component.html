@@ -1,0 +1,7 @@
+<div class="layers-container">
+    <div *ngFor="let layer of layers">
+        <label [for]="layer.properties.layerName">{{layer.properties.dispaly}} </label>
+        <input type="checkbox" [id]="layer.properties.layerName" [value]="layer.properties.layerName"
+            (change)="onCheckboxChange($event, layer)" />
+    </div>
+</div>
